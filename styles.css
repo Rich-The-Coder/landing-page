@@ -54,10 +54,35 @@ ul{
 .content{
     background-color:#1F2937;
     display: flex;
-    text-align: center;
-    padding:10%;
+    align-items: center;
+    justify-content:space-around;
+    font-size:18px;
+    color: #E5E7EB;
 }
 
+.image-content{
+    height: 400px;
+    width: 400px;
+
+    
+}
+
+    .info-header{
+        font-size: 18px;
+        color: #1F2937;
+        text-align: center;
+        padding:10px;
+        margin: auto;
+    }
+
+    .box1{
+        border-radius: 20%;
+        border: 1px solid blue;
+        width: 150px;
+        height:150px;
+        display: flex;
+
+    }
     /* .header-content, .paragraph-content{
         display: flex;
         
@@ -68,4 +93,11 @@ ul{
         font-size: 36px;
         color: #1f2937;
         
+    }
+
+    button{
+        background-color:#3882f6;
+        border-radius: 25%;
+        color: white;
+        border: 1 solid #3882f6;
     }
